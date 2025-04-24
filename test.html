@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Information</title>
+    <link href="../framework/css/style.css" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link href="../framework/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Link to Font Awesome CSS (local) -->
+    <link rel="stylesheet" href="../framework/bootstrap/fontawesome-free-5.15.4-web/css/all.min.css">
+    <!-- Link to external JavaScript-->
+    <script src="../framework/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../framework/js/jv2.js"></script>
+    <script src="../framework/js/Vue.js"></script>
+
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#!">TamY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse sideNav" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#!">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">Attractions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">Opinions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">Contact</a>
+                </li>
+              </ul>
+              <!-- Profile Icon -->
+              <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="#!">
+                      <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="#!">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="#!">
+                      <i class="fas fa-user-circle"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar -->
+    </header>
+
+    <main>
+        <!--section 1: slide show-->
+        <section >
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- First image with "active" class -->
+            <div class="carousel-item active">
+                <img src="../image/wedding1.jpg" class="d-block w-100" alt="Wedding">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>" we'll make every minute count"</h5>
+                    <p>-Robert</p>
+                </div>
+            </div>
+
+            <!-- Additional slides -->
+            <div class="carousel-item">
+                <img src="../image/event.jpg" class="d-block w-100" alt="Event">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 >"your idea, me make it "</h5>
+                    <p >-johnson smith</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        </div>
+        </section>
+        <!-- end of Section1-->
+
+        <!--Section2: the responsive block-->
+        <section>
+            <br>
+            <h1 class="text-center roman-fonts">why choose us?</h1>
+            <hr>
+            <br>
+            <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                <div>
+                    <h5 class="roman-fonts-hk">Expert Event Planners </h5>
+                    <p class="roman-fonts-lk">
+                    Our team consists of experienced professionals who have years of expertise in planning 
+                    and executing successful events. From corporate conferences to weddings, we tailor every 
+                    detail to match your needs, ensuring that your event is memorable and flawlessly executed.
+                    </p>
+                </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                <div>
+                    <h5 class="roman-fonts-hk" >Customized Event Solutions </h5>
+                    <p class="roman-fonts-lk">
+                    We understand that every event is unique, which is why we offer customized solutions 
+                    for each client. Whether you're hosting a small gathering or a large-scale celebration, 
+                    we collaborate with you to create an event that reflects your vision and exceeds expectations.
+                    </p>
+                </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                <div>
+                    <h5 class="roman-fonts-hk">End-to-End Service</h5>
+                    <p class="roman-fonts-lk">
+                    From the initial planning stages to the final wrap-up, we provide comprehensive services. 
+                    We handle everything—from venue selection and catering to décor and entertainment—leaving you 
+                    free to enjoy your event without any stress or hassle.
+                    </p>
+                </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                <div>
+                    <h5 class="roman-fonts-hk">Attention to Detail</h5>
+                    <p class="roman-fonts-lk">
+                    We believe that the little things make a big impact. Our meticulous attention to detail 
+                    ensures that every aspect of your event is thoughtfully considered. No request is too small, 
+                    and every element is handled with care, ensuring a smooth experience for you and your guests
+                    </p>
+                </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                <div>
+                    <h5 class="roman-fonts-hk">Creative Design and Innovation</h5>
+                    <p class="roman-fonts-lk">
+                    Our team thrives on creativity and innovation, bringing fresh ideas to the table. Whether 
+                    it's designing a stunning event layout or curating unique entertainment, we always aim to 
+                    deliver an event experience that stands out and leaves a lasting impression
+                    </p>
+                </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                <div>
+                    <h5 class="roman-fonts-hk">Seamless Execution</h5>
+                    <p class="roman-fonts-lk">
+                    Our experienced event coordinators are known for their ability to execute events seamlessly. 
+                    With precise organization, we ensure everything runs according to plan, allowing you to relax 
+                    and focus on enjoying your event, knowing that we have every detail under control.
+                    </p>
+                </div>
+                </div>
+            </div>
+            </div>
+            <br>
+        </section>
+        <!-- end of Section2-->
+
+        <!--Section3: section divider -->
+        <section id="textCarouselSection">
+            <div id="textCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- First quote (active) -->
+                    <div class="carousel-item active">
+                        <blockquote class="blockquote text-center">
+                            <p class="mb-0">"The only limit to our realization of tomorrow is our doubts of today."</p>
+                            <br>
+                            <footer class="blockquote-footer">Franklin D. Roosevelt</footer>
+                        </blockquote>
+                    </div>
+                    
+                    <!-- Second Quote -->
+                    <div class="carousel-item">
+                        <blockquote class="blockquote text-center">
+                            <p class="mb-0">"Do what you can, with what you have, where you are."</p>
+                            <br>
+                            <footer class="blockquote-footer">Theodore Roosevelt</footer>
+                        </blockquote>
+                    </div>
+        
+                    <!-- Third Quote -->
+                    <div class="carousel-item">
+                        <blockquote class="blockquote text-center">
+                            <p class="mb-0">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p>
+                            <br>
+                            <footer class="blockquote-footer">Winston Churchill</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of Section3-->
+
+        <!--Section4: table -->
+        <section>
+          <br>
+          <h1 class="text-center roman-fonts">Event information</h1>
+          <hr>
+          <br>
+        <div id="table" class="ps-5 pe-5">
+            <!-- Search inputs -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-3">
+                        <!-- "eventid" search label -->
+                        <input type="text" v-model="filters.eventid" class="form-control" placeholder="Search by Event ID">
+                    </div>
+            
+                    <div class="col-12 col-md-4 mb-3">
+                        <!-- "eventname" search label -->
+                        <input type="text" v-model="filters.eventname" class="form-control" placeholder="Search by Event Name">
+                    </div>
+            
+                    <div class="col-12 col-md-4 mb-3">
+                        <!-- "duration" search label -->
+                        <input type="number" v-model="filters.durationhour" class="form-control" placeholder="Search by Duration">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Category filter -->
+            <div class="container-fluid">
+                <div class="d-flex flex-wrap justify-content-between">
+                    <div class="form-check ps-1 mb-2">
+                        <label for="category-filter" class="ps-1 pe-5 pb-3">Filter by category:</label>
+                    </div>
+                    <div class="form-check ps-5 mb-2">
+                        <input type="radio" id="all" name="category" value="All" v-model="filters.category" checked class="form-check-input">
+                        <label for="all" class="form-check-label">All</label>
+                    </div>
+                    <div class="form-check ps-5 mb-2">
+                        <input type="radio" id="technology" name="category" value="Technology" v-model="filters.category" class="form-check-input">
+                        <label for="technology" class="form-check-label">Technology</label>
+                    </div>
+                    <div class="form-check ps-5 mb-2">
+                        <input type="radio" id="business" name="category" value="Business" v-model="filters.category" class="form-check-input">
+                        <label for="business" class="form-check-label">Business</label>
+                    </div>
+                    <div class="form-check ps-5 mb-2">
+                        <input type="radio" id="marketing" name="category" value="Marketing" v-model="filters.category" class="form-check-input">
+                        <label for="marketing" class="form-check-label">Marketing</label>
+                    </div>
+                    <div class="form-check ps-5 pe-5 mb-2">
+                        <input type="radio" id="finance" name="category" value="Finance" v-model="filters.category" class="form-check-input">
+                        <label for="finance" class="form-check-label">Finance</label>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- event table -->
+            <table class="table table-hover table-bordered "> <!--row will darken as you hover over-->
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Event ID</th>
+                        <th scope="col">Event Name</th>
+                        <th scope="col">Category</th>
+                        <th scope="col">Duration Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="event in filteredEvents" :key="event.eventid">
+                        <td>{{ event.eventid }}</td>
+                        <td>{{ event.eventname }}</td>
+                        <td>{{ event.category }}</td>
+                        <td>{{ event.durationhour }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <script>
+        const table = Vue.createApp({
+            data() {
+                return {
+                    events: [
+                        {eventid: 'EVT10001', eventname: 'Tech Innovations Conference', category: 'Technology', durationhour: 8},
+                        {eventid: 'EVT10002', eventname: 'Startup Pitch Day', category: 'Business', durationhour: 6},
+                        {eventid: 'EVT10003', eventname: 'AI & Machine Learning Summit', category: 'Technology', durationhour: 10},
+                        {eventid: 'EVT10004', eventname: 'Cybersecurity Workshop', category: 'Technology', durationhour: 4},
+                        {eventid: 'EVT10005', eventname: 'Digital Marketing Bootcamp', category: 'Marketing', durationhour: 6},
+                        {eventid: 'EVT10006', eventname: 'Blockchain and Cryptocurrency', category: 'Finance', durationhour: 5},
+                        {eventid: 'EVT10007', eventname: 'Entrepreneurship Forum', category: 'Business', durationhour: 7},
+                        {eventid: 'EVT10008', eventname: 'Data Science Hackathon', category: 'Technology', durationhour: 12},
+                        {eventid: 'EVT10009', eventname: 'Leadership and Management Summit', category: 'Business', durationhour: 9},
+                        {eventid: 'EVT10010', eventname: 'E-commerce Strategies', category: 'Marketing', durationhour: 6},
+                        {eventid: 'EVT10011', eventname: 'AI for Business', category: 'Business', durationhour: 8},
+                        {eventid: 'EVT10012', eventname: 'IoT & Smart Devices Expo', category: 'Technology', durationhour: 7},
+                        {eventid: 'EVT10013', eventname: 'Brand Strategy and Growth', category: 'Marketing', durationhour: 5},
+                        {eventid: 'EVT10014', eventname: 'Investment and Wealth Management', category: 'Finance', durationhour: 6},
+                        {eventid: 'EVT10015', eventname: 'Financial Technology (FinTech) Summit', category: 'Finance', durationhour: 8},
+                        {eventid: 'EVT10016', eventname: 'AI Ethics and Regulations', category: 'Technology', durationhour: 4},
+                        {eventid: 'EVT10017', eventname: 'Business Analytics Workshop', category: 'Business', durationhour: 6},
+                        {eventid: 'EVT10018', eventname: 'SEO and Content Marketing', category: 'Marketing', durationhour: 7},
+                        {eventid: 'EVT10019', eventname: 'Cryptocurrency Investment Strategies', category: 'Finance', durationhour: 9},
+                        {eventid: 'EVT10020', eventname: 'Social Media Marketing Trends', category: 'Marketing', durationhour: 5}
+                    ],
+                    filters: {
+                        eventid: '',
+                        eventname: '',
+                        durationhour: '',
+                        category: 'All'  
+                    }
+                };
+            },
+            computed: {
+                filteredEvents() {
+                    return this.events.filter(event => {
+                        const matchesEventID = event.eventid.toLowerCase().includes(this.filters.eventid.toLowerCase());
+                        const matchesEventName = event.eventname.toLowerCase().includes(this.filters.eventname.toLowerCase());
+                        const matchesDuration = !this.filters.durationhour || event.durationhour == this.filters.durationhour;
+                        const matchesCategory = this.filters.category === 'All' || event.category === this.filters.category;
+        
+                        return matchesEventID && matchesEventName && matchesDuration && matchesCategory;
+                    });
+                }
+            }
+        });
+        
+        table.mount('#table');
+        </script>
+
+        </section>
+        <!-- end of Section4-->
+
+        <!--Section5: sign up page -->
+        <section>
+        <div id="app">
+            <!-- Section 5: Sign Up Page -->
+            <section class="bg-section">
+                <div class="row">
+                    <div class="col-md-6 col-12 d-flex align-items-stretch">
+                        <img src="../image/contact.jpg" class="d-block w-100 img-fluid" alt="business">
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <h1 class="text-center roman-fonts pt-4">Join us</h1>
+        
+                        <form @submit.prevent="register">
+                            <div class="px-2 m-2">
+                                <!-- Email -->
+                                <div class="form-group row pb-3">
+                                    <label class="col-sm-2 col-form-label">Username</label>
+                                    <div class="col-sm-10">
+                                        <input type="username" class="form-control" v-model="username" placeholder="Username" required>
+                                    </div>
+                                </div>
+        
+                                <!-- Password -->
+                                <div class="form-group row pb-3">
+                                    <label class="col-sm-2 col-form-label">Password</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" v-model="password" placeholder="Password" required>
+                                    </div>
+                                </div>
+        
+                                <!-- Confirm Password -->
+                                <div class="form-group row pb-3">
+                                    <label class="col-sm-2 col-form-label">Confirm</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" v-model="confirmPassword" placeholder="Confirm Password" required>
+                                    </div>
+                                </div>
+                                <span v-if="passwordMismatch" style="color: red;">Passwords do not match!</span>
+        
+                                <!-- Radio Buttons (Event Category) -->
+                                <fieldset class="form-group">
+                                    <div class="row">
+                                        <legend class="col-form-label col-sm-2 pt-0">Category</legend>
+                                        <div class="col-sm-10 pb-3">
+                                            <div class="form-check" v-for="(label, category) in eventOptions" :key="category">
+                                                <input class="form-check-input" type="radio" v-model="selectedCategory" :value="category">
+                                                <label class="form-check-label">{{ label.name }}</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+        
+                                <!-- Dropdown (Event Name) -->
+                                <div class="form-group row pb-3">
+                                    <label class="col-form-label col-sm-2 pt-0" >Events </label>
+                                    <div class="col-sm-10 pb-3">
+                                    <select class="form-control" v-model="selectedEvent">
+                                        <option disabled value="">Select an event</option>
+                                        <option v-for="event in eventOptions[selectedCategory].events" :key="event" :value="event">
+                                            {{ event }}
+                                        </option>
+                                    </select>
+                                    </div>
+                                </div>
+        
+                                <!-- Submit Button -->
+                                <div class="form-group row">
+                                    <div class="col-sm-10 offset-sm-2 text-end">
+                                        <button type="submit" class="btn btn-primary">Sign in</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- bootstrap pops up -->
+            <div class="modal fade" id="summaryModal" tabindex="-1" aria-labelledby="summaryModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="summaryModalLabel">Registration Summary</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>Username:</strong> {{ username }}</p>
+                            <p><strong>Event Category:</strong> {{ eventOptions[selectedCategory].name }}</p>
+                            <p><strong>Event Name:</strong> {{ selectedEvent }}</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+        const { createApp, ref, computed } = Vue;
+        
+        createApp({
+            setup() {
+
+                const username = ref('');
+                const password = ref('');
+                const confirmPassword = ref('');
+                const selectedCategory = ref('business'); //this will help set it by default
+                const selectedEvent = ref(''); 
+        
+                const eventOptions = ref({
+                    business: { name: "Business", events: ["Conference", "Networking", "Startup Pitch"] },
+                    personal: { name: "Personal", events: ["Birthday", "Wedding", "Reunion"] },
+                    entertainment: { name: "Entertainment", events: ["Concert", "Movie Night", "Festival"] }
+                });
+        
+                const passwordMismatch = computed(() => {
+                    return password.value && confirmPassword.value && password.value !== confirmPassword.value;
+                });
+        
+                // function to show pop up
+                const register = () => {
+                    if (passwordMismatch.value || !selectedEvent.value) {
+                        return;
+                    }
+                    const modal = new bootstrap.Modal(document.getElementById('summaryModal'));
+                    modal.show();
+                };
+        
+                return {
+                    username,
+                    password,
+                    confirmPassword,
+                    selectedCategory,
+                    selectedEvent,
+                    eventOptions,
+                    passwordMismatch,
+                    register
+                };
+            }
+        }).mount('#app');
+        </script>
+        </section>
+        <!-- end of Section5-->
+    </main>
+    
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Social Media Links -->
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.facebook.com" target="_blank" class="text-white">
+                                <i class="fab fa-facebook-square"></i> Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com" target="_blank" class="text-white">
+                                <i class="fab fa-twitter"></i> Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank" class="text-white">
+                                <i class="fab fa-instagram"></i> Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com" target="_blank" class="text-white">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!-- Contact Info -->
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><strong>Email:</strong> support@company.com</li>
+                        <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+                        <li><strong>Customer Support:</strong> +1 (555) 765-4321</li>
+                    </ul>
+                </div>
+    
+                <!-- Company Address -->
+                <div class="col-md-4">
+                    <h5>Our Address</h5>
+                    <p>
+                        123 Company St., <br>
+                        Suite 456, Business District, <br>
+                        City, Country, 12345
+                    </p>
+                </div>
+            </div>
+    
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p>&copy; 2025 TamY. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
