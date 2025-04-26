@@ -9,7 +9,7 @@ app.component('job-overview', JobOverview);
 
 app.component('job-detail', JobDetail);
 
-app.component('job-overview', JobOverview);
+app.component('job-ApplicationForm', ApplicationForm);
 // Use the router (make sure you have defined `router` in router.js)
 app.use(router);
 
