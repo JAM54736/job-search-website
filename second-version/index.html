@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Information</title>
+    <link href="./framework/css/style.css" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link href="./framework/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Link to Font Awesome CSS (local) -->
+    <link rel="stylesheet" href="./framework/bootstrap/fontawesome-free-5.15.4-web/css/all.min.css">
+    <!-- Link to external JavaScript-->
+    <script src="./framework/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./framework/js/jv2.js"></script>
+    <script src="./framework/js/Vue.js"></script>
+    <script src="./framework/js/Vuerouter.js"></script>
+</head>
+<body>
+
+    <div id="app">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#!">TamY</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse sideNav" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                        <router-link class="nav-link" to="/jobdetails">Job Explorer</router-link>
+                        </li>
+                        <li class="nav-item">
+                        <router-link class="nav-link" to="/applicationform">Application Form</router-link>
+                        </li>
+                        <li class="nav-item">
+                        <router-link class="nav-link" to="/todolist">To-Do List</router-link>
+                        </li>
+                    </ul>
+                    </div>
+            </nav>
+            <router-view></router-view>
+    </div>
+
+    <script src="./components/ToDoLists.js"></script>
+    <script src="./components/JobList.js"></script>
+    <script src="./components/JobOverview.js"></script>
+    <script src="./components/JobDetail.js"></script>
+    <script src="./components/ApplicationForm.js"></script>
+    <script src="./components/App.js"></script>
+    <script src="./router.js"></script> <!-- Load router.js before main.js -->
+    <script src="./main.js"></script> <!-- Load main.js last -->
+    
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Social Media Links -->
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.facebook.com" target="_blank" class="text-white">
+                                <i class="fab fa-facebook-square"></i> Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com" target="_blank" class="text-white">
+                                <i class="fab fa-twitter"></i> Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank" class="text-white">
+                                <i class="fab fa-instagram"></i> Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com" target="_blank" class="text-white">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!-- Contact Info -->
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><strong>Email:</strong> support@company.com</li>
+                        <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+                        <li><strong>Customer Support:</strong> +1 (555) 765-4321</li>
+                    </ul>
+                </div>
+    
+                <!-- Company Address -->
+                <div class="col-md-4">
+                    <h5>Our Address</h5>
+                    <p>
+                        123 Company St., <br>
+                        Suite 456, Business District, <br>
+                        City, Country, 12345
+                    </p>
+                </div>
+            </div>
+    
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p>&copy; 2025 TamY. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
