@@ -1,9 +1,8 @@
 
 const routes = [
-    { 
-    path: '/todolist', 
-    component: ToDoList, 
-    },
+    { path: '/jobdetails', component: JobDetail}, // Route for Job Detail
+    {path: '/todolist', component: ToDoList}, 
+    
 ];
 
 const router = VueRouter.createRouter({
