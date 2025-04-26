@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Information</title>
+    <link href="./framework/css/style.css" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link href="./framework/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Link to Font Awesome CSS (local) -->
+    <link rel="stylesheet" href="./framework/bootstrap/fontawesome-free-5.15.4-web/css/all.min.css">
+    <!-- Link to external JavaScript-->
+    <script src="./framework/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./framework/js/jv2.js"></script>
+    <script src="./framework/js/Vue.js"></script>
+    <script src="./framework/js/Vuerouter.js"></script>
+</head>
+<body>
+
+
+    <div id="app">
+        <nav>
+            <router-link to="/">Job Explorer</router-link>
+            <router-link to="/job-detail">Job Detail</router-link>
+            <router-link to="/application-form">Application Form</router-link>
+            <router-link to="/todolist">To-Do List</router-link>
+          </nav>
+          <router-view></router-view>
+    </div>
+    
+    <script src="./components/ToDoLists.js"></script>
+    <script src="./components/JobList.js"></script>
+    <script src="./components/JobDetail.js"></script>
+    <script src="./components/ApplicationForm.js"></script>
+    <script src="./components/App.js"></script>
+    <script src="./router.js"></script> <!-- Load router.js before main.js -->
+    <script src="./main.js"></script> <!-- Load main.js last -->
+    
+
+</body>
+</html>
